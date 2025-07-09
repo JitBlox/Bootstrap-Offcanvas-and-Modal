@@ -1,5 +1,7 @@
 # Bootstrap Offcanvas and Modal
 
+Demonstrates the Bootstrap Offcanvas and Modal components in an Angular app. Learn how to add a working Offcanvas or Modal component to your Angular project without coding at  [Adding a Bootstrap Offcanvas or Modal to your Angular app without coding](https://www,jitblox.com/blog/bootstrap-offcanvas-and-modal).
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
 
 ## Development server
