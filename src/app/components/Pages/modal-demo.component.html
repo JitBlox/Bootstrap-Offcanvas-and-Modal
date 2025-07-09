@@ -1,0 +1,17 @@
+<h2>Bootstrap Modal demo</h2>
+<ng-template #modal>
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Modal title</h4>
+            <button (click)="onCloseButton1Click($event)" class="btn-close"></button>
+        </div>
+        <div class="modal-body">
+            <p>This is some initial modal content. You can replace it with any content you wish.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" (click)="onButton1Click($event)" class="btn btn-secondary">Close</button>
+            <button type="button" (click)="onButton2Click($event)" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+</ng-template>
+<button type="button" (click)="onButton3Click($event)" class="btn btn-primary">Launch Modal</button>

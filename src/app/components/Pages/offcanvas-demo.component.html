@@ -1,0 +1,11 @@
+<h2>Bootstrap Offcanvas demo</h2>
+<ng-template #offcanvas>
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title">Offcanvas title</h4>
+        <button (click)="onCloseButton1Click($event)" class="btn-close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Offcanvas body text goes here.</p>
+    </div>
+</ng-template>
+<button type="button" (click)="onButton1Click($event)" class="btn btn-primary">Launch Offcanvas</button>
